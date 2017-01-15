@@ -8,7 +8,7 @@
   <!-- Bootstrap -->
   <link href="../css/bootstrap.min.css" rel="stylesheet">
   <link href="../css/main.css" rel="stylesheet">
-  <title>Title</title>
+  <title>发布文章</title>
 </head>
 <body>
 
@@ -40,35 +40,20 @@
 
 <div class="container main">
   <div class="row">
-    <div class="alert alert-danger col-md-12 col-xs-12">登录成功！</div>
+    <div class="alert alert-success col-md-12 col-xs-12">登录成功！</div>
   </div>
   <form class="form-signup">
     <div class="panel panel-default">
       <div class="panel-body">
         <div class="form-group">
-          <label>用户名</label>
-          <input class="form-control" type="text" placeholder="请输入用户名"/>
+          <label>标题</label>
+          <input class="form-control" type="text"/>
         </div>
         <div class="form-group">
-          <label>密码</label>
-          <input class="form-control" type="text" placeholder="请输入密码"/>
+          <label>内容</label>
+          <textarea class="form-control" rows="20"></textarea>
         </div>
-        <div class="form-group">
-          <label>确认密码</label>
-          <input class="form-control" type="text" placeholder="请输入确认密码"/>
-        </div>
-        <div class="form-group">
-          <label for="sex">性别</label>
-            <select class="form-control" id="sex">
-              <option>男</option>
-              <option>女</option>
-            </select>
-        </div>
-        <div class="form-group">
-          <label for="description">个人简介</label>
-          <textarea class="form-control" id="description" rows="5" ></textarea>
-        </div>
-        <button type="submit" class="btn btn-primary btn-block">注册</button>
+        <button type="submit" class="btn btn-primary">发布</button>
       </div>
     </div>
   </form>
